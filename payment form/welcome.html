@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PAYMENT fORM</title>
+    <link rel="stylesheet" href="wlcome.css" media="all">
+</head>
+
+<body>
+    <form name='myform' onsubmit="return (vaildate())">
+        <div class="container">
+
+            <h1 id="h1">PAYMENT FORM</h1>
+            <h3 id="h2"> CUSTOMER INFORMATION </h3>
+            <P>
+                NAME:*<input type="text" ,name="name" id="name">
+            </p>
+            <br>
+            <p>
+                LAST NAME:*<input type="text" ,name="lastname" ,id="lastname">
+            </p>
+            <p>
+                EMAIL ID:<input type="email" ,name="email" ,id="email">
+            </p>
+            <fieldset>
+                <legend>GENDER</legend>
+                <p>
+                    male<input type="radio" name="radio" id="radio"> female
+                    <input type="radio" name="radio" id="female">
+
+                </p>
+            </fieldset>
+            <p>
+                pincode:<input type="number" ,name="pincode" ,id="pincode">
+            </p>
+            Address:* <textarea rows="5" cols="100" name="comment" form="usrform"></textarea>
+            <h3 id="h3">PAYMENT INFORMATION</h3>
+            <p> card type:
+                <select name="card_type" ,id="cardt_ype">
+
+  <option value=""-->select a card type----></option>
+  <option value="visa">visa</option>
+  <option value="mastercard">Mastercard</option>
+  <option value="rupay">rupay</option>
+</select>
+            </p>
+            <p>
+                card number:<input type="text" name="number" id="number"> cvv:
+                <input type="password" name="pasword" id="password">
+            </p>
+            <p> expireynumber:<input type="date" ,name="date" ,id="date"> </p>
+            <input type="submit" id="jj" value="submit">
+            </p>
+            <footer>
+                <a href="www.facebook.com">facebook</a> <a href="www.twitter">twitter</a> <a href="www.instagram.com">insta</a></p>
+            </footer>
+    </form>
+    </div>
+
+
+
+
+
+
+    <div id="pro"></div>
+    <button onclick="myform3()">button</button>
+    <div id="ob"></div>
+    <script src="./java/file.js"></script>
+
+
+</body>
+
+</html>
+
+</html>
